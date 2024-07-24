@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financial Due Dilligence</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <body>
+        <Section class="header3">
+            <div class="container">
+                <h1 class="logo">ConsultEZ</h1>
+            </div>
+            <nav id="sidenav">
+                <ul>
+                    <li><a href="ConsultEZ.html">Home</a></li>
+                    <li><a href="CA.html">Chartered Accountancy</a></li>
+                    <li><a href="CS.html">Company Secretary</a></li>
+                    <li><a href="cma.html">Cost Accountancy</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Join as a mentor?</a></li>
+                </ul>
+            </nav>
+            <img src="images/menu.png" id="menubtn">
+        <script>
+            var menubtn = document.getElementById("menubtn");
+            var sidenav = document.getElementById("sidenav");
+            sidenav.style.right = "-250px"
+            menubtn.onclick = function(){
+                if(sidenav.style.right == "-250px"){
+                    sidenav.style.right = "0px "
+                }
+                else{
+                    sidenav.style.right = "-250px"
+                }
+            }
+        </script>
+<div class="profile-card">
+    <img src="images/kapil.jpeg" alt="Profile Image">
+    <div class="info">
+        <h3>Kapil Purohit</h3>
+        <p>Deputy Manager at Deloitte (Audit & Assurance)</p>
+        <a href="https://www.linkedin.com/in/soundaria-l-434041204/" class="linkedin-link">
+            <img src="images/Linkedin.png" alt="LinkedIn" class="linkedin-logo"> LinkedIn
+        </a>
+        <p>Kapil is a young chartered accountant with post qualification experience of 1.6 Years and 3 years articleship experience with Deloitte. Strong technical knowledge in auditing and financial reporting. Have worked on multiple industry audits namely Edutech,B2C,FMCG,Diary,aviation and automotive products manufacturing companies and worked on Special purpose audit engagements for initial public offering at NSE & BSE</p>
+    </div>
+    <div class="rupees-box">₹500 per hour</div>
+    <div class="book-button">
+        <button id="bookButton">Book</button>
+    </div>
+</div>
+    </div>
+</div>
+<script>
+    document.getElementById('bookButton').addEventListener('click', function() {
+        // Redirect to your form URL
+        window.location.href = "https://forms.gle/ya1V3RsWYgDwzW7C9"; // Replace with your form URL
+    });
+</script>
+</body>

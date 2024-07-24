@@ -1,0 +1,317 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header {
+    height: 100vh;
+    background-image: url(images/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.logo {
+    margin-top: 30px;
+    width: 100px;
+    color: rgb(127, 95, 208);
+}  
+.headertext{
+   max-width: 370px;
+    margin-top: 140px;
+    
+}
+h1 {
+    font-size: 34px ;
+}
+.square {
+    height: 12px;
+    width: 12px;
+    display: inline-block;
+    background-color: #f67c92;
+    margin: 15px 0;
+}
+.commonbtn {
+    padding: 18px 40px;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid #f67c92 ;
+    font-weight: bold;
+    cursor: pointer;
+}
+p {
+    font-size: 20px;
+    line-height: 18px;
+    color: #f67c92;
+}
+
+button {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+.line1{
+    height: 15px;
+    width: 15px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line2{
+    height: 1px;
+    width: 80px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line3{
+    height: 1px;
+    width: 60px;
+    background: #f67c92;
+    display: inline-block;
+}
+.line   {
+    line-height: 8px;
+}
+#sidenav {
+width: 250px;
+height: 100vh;
+position: fixed;
+top: 0 ;
+right: -250px   ;
+background-color: #f67c92;
+z-index: 2;
+transition: 0.7s;
+}
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+}
+#menubtn{
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+#about {
+    display: flex;
+    padding: 100px,0;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.about-leftcol {
+    flex-basis: 50%;
+}
+.about-leftcol img{
+    width: 100%;
+}
+.about-rightcol {
+text-align: right;
+    flex-basis: 50%;
+}
+.abouttext{
+    max-width: 500px;
+    margin-right: 100px;
+    display: inline-block;
+}
+.abouttext h2 {
+    margin: 50px 0 10px;
+    font-size: 25px;
+    font-style: italic;
+}
+.abouttext h3 {
+    color: #797979;
+    font-size: 25px;
+    font-style: italic;
+}
+.header1 {
+    height: 100vh;
+    background-image:url(images/background.png);
+    background-position: center;
+    background-size: cover;   
+}
+.box{
+    border-color: #797979;
+    padding-left: 105px; 
+}
+.btnaudit{
+    text-decoration: none;
+    font-size: large;
+    background-color: #f67c92;
+    color: white;
+    padding : 20px;
+    border-radius: 30px;
+    margin-top: 10%;
+    display: inline-block;
+    padding-right: 65px;
+    text-align: center;
+
+}
+.btnfdd{
+    text-decoration: none;
+    font-size: large;
+    background-color: #f67c92;
+    color: white;
+    padding: 20px ;
+    border-radius: 30px;
+    margin-left: 105px;
+}
+.box1{
+    margin-top: 30px;
+}
+.btntax{
+    text-decoration: none;
+    font-size: large;
+    background-color: #f67c92;
+    color: white;
+    padding: 20px ;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 30px;
+    padding-right: 140px;
+}
+.btnindustry{
+    text-decoration: none;
+    font-size: large;
+    background-color: #f67c92;
+    color: white;
+    padding: 20px ;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 12px;
+    padding-right: 140px;
+
+}
+.header2 {
+    height: 100vh;
+    background-position: center;
+    background-size: cover;}
+
+.header3 {
+    height: 100vh;
+    background-color:#f67c92
+    background-position: center;
+    background-size: cover;}
+
+.btnconsulting {
+    text-decoration: none;
+    font-size: large;
+    background-color: #f67c92;
+    color: white;
+    padding: 20px ;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 12px;
+    padding-right: 120px;
+}
+.body1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+.coming-soon-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    background-color: white;
+    margin-top: 10%;
+}
+.coming-soon-card h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.coming-soon-card p {
+    font-size: 14px;
+    color: #666;
+    margin-bottom: 20px;
+}
+.coming-soon-card button {
+    background-color: #f06292;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.coming-soon-card button:hover {
+    background-color: #ec407a;
+}
+.profile-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+.profile-card img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.profile-card .info {
+    margin-top: 10px;
+}
+.profile-card .info h3 {
+    margin: 10px 0 5px 0;
+    font-size: 18px;
+}
+.profile-card .info p {
+    font-size: 14px;
+    color: #666;
+}
+.profile-card .linkedin-logo {
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.profile-card .linkedin-link {
+    display: inline-block;
+    margin: 10px 0;
+}
+.profile-card .rupees-box {
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 15px 0;
+    font-size: 16px;
+    color: #333;
+}
+.profile-card .book-button {
+    display: block;
+    width: 100%;
+    margin-top: 15px;
+}
+.profile-card .book-button button {
+    background-color: #f06292;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+    width: 100%;
+}
+.profile-card .book-button button:hover {
+    background-color: #ec407a;
+}
+#calendar {
+    max-width: 900px;
+    margin: 50px auto;
+    display: none; /* Hide calendar initially */
+}

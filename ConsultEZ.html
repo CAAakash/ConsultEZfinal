@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>ConsultEZ</title>
+    <link rel="stylesheet" href="Styles.css">
+</head>
+<body>
+    <Section class="header">
+        <div class="container">
+            <h1 class="logo">ConsultEZ</h1>
+            <div class="headertext">
+                <h1>We act as a bridge for your future!</h1>
+                <span class="square"></span>
+                <p> Elevate your career with expert guidance: Mock interviews, resume evaluations and interview advice tailored by top professionals from your desired organization</p>
+                <button class="commonbtn">Read more</button>
+            <div class="line">
+                <span class="line1"></span> <br>
+                <span class="line2"></span> <br>
+                <span class="line3"></span>
+            </div>
+        </div>
+        </div>
+    </Section>
+    <nav id="sidenav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="CA.html">Chartered Accountancy</a></li>
+            <li><a href="CS.html">Company Secretary</a></li>
+            <li><a href="cma.html">Cost Accountancy</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Join as a mentor?</a></li>
+        </ul>
+    </nav>
+    <img src="images/menu.png" id="menubtn">
+    <script>
+        var menubtn = document.getElementById("menubtn");
+        var sidenav = document.getElementById("sidenav");
+        sidenav.style.right = "-250px"
+        menubtn.onclick = function(){
+            if(sidenav.style.right == "-250px"){
+                sidenav.style.right = "0px "
+            }
+            else{
+                sidenav.style.right = "-250px"
+            }
+        }
+    </script>
+    <section id="about">
+        <div class="about-leftcol">
+            <img src="images/about.png" alt="">
+        </div>
+        <div class="about-rightcol">
+            <div class="abouttext">
+                <h1>What We Do</h1>
+                <span class="square"></span>
+                <p>At ConsultEZ, we bridge the gap between seasoned professionals and aspiring job candidates through personalized appointments. Our platform provides an invaluable opportunity for job seekers to connect directly with professionals from leading organizations who offer expert guidance on interview preparation, resume evaluation, and mock interviews. Whether you're aiming to land your dream job or seeking career advancement, ConsultEZ is your trusted partner in navigating the competitive job market with confidence and proficiency. </p>
+                <div class="line">
+                    <span class="line1"></span> <br>
+                    <span class="line2"></span> <br>
+                    <span class="line3"></span>
+                </div>
+                <h2>"By failing to prepare, <br>You're preparing to fail"</h2>
+                <h3>~Benajmin Franklin</h3>
+            </div>
+        </div>
+    </section>
+    
+</body>
+</html>
